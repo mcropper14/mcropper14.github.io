@@ -1,1 +1,7 @@
 theme: jekyll-theme-hacker
+collections:
+  posts:
+    output: true
+permalink: pretty
+include: [".md", ".html"]
+exclude: ["_site", ".jekyll-cache"]

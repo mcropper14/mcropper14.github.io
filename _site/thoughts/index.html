@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup theme-color -->
+<!-- start theme color meta headers -->
+<meta name="theme-color" content="#151515">
+<meta name="msapplication-navbutton-color" content="#151515">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- end theme color meta headers -->
+
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Thoughts</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Thoughts" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/thoughts/" />
+<meta property="og:url" content="http://localhost:4000/thoughts/" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Thoughts" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Thoughts","url":"http://localhost:4000/thoughts/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="/">
+          <h1></h1>
+        </a>
+        <h2></h2>
+
+        <section id="downloads">
+          
+          <a href="" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <style>
+body { background: #111; color: #00ff00; font-family: 'Fira Mono', 'Consolas', monospace; }
+.post { margin-bottom: 2em; background: #222; padding: 1em; border-radius: 10px; }
+.post img { 
+  max-width: 100%; 
+  height: auto; 
+  border: 2px solid #00ff00; 
+  border-radius: 8px; 
+  margin: 1em 0; 
+  display: block;
+}
+.image-caption {
+  text-align: center;
+  font-style: italic;
+  color: #0f0;
+  margin-top: 0.5em;
+  font-size: 0.9em;
+}
+.post a {
+  color: #00ff00;
+  text-decoration: underline;
+}
+.post a:hover {
+  color: #0f0;
+  text-decoration: none;
+}
+</style>
+
+<h1>My own thoughts. Ignore the spelling and grammar mistakes, I'm a CS major.</h1>
+
+<div class="post">
+
+<p><em>7/1/2025</em></p>
+<h2>CarOps, and why I need a Waymo</h2>
+<p>I think a lot about messing with my car to give it increased driving capabilities after the L2/L3 I could get with openpilot. Lidar is cheaper now, there's solid state lidar. Why not use those sensor. Plus I need more cameras, one is not enough. I want to get a new cluster, a digital one, not a fan of Toyota's design. It would be way cool if I could get the driving visualization on that, similar to what the older Tesla model S had. 
+My current project is working on a framework/project I like to call "CarOPs". I think Tesla's FSD lacks explainability. It would be cool if you could actually know why the car made an incorrect decision.  Basically I want an end to end iterative self driving system with increased transparency over Tesla and open pilot. I want a framework where users, even those not well versed in AI/ml can understand their driving model, view the trajectory of the vehicle, and if the model makes an incorrect driving decision, be able to tell why it happened. I want the iterative design of mlops and human in the loop. I want a universal framework or something that could be run in all cars, instead of something like open pilot that works by overwriting the cars ecu signals.I am thinking about trying to figure out my own form of communication at the lower level as well. 
+</p>
+</div>
+
+<div class="post">
+<p><em>6/26/2025</em></p>
+<h2>Tesla V Waymo </h2>
+<p>I've been watching Waymo and Tesla's robotaxis compete in real time. Let's see how this goes. 
+</p>
+</div>
+
+<div class="post">
+<p><em>5/17/2025</em></p>
+<h2>Welp I finished college.</h2>
+
+<p> I just finished my ugrad degree and I still think a lot about what I want to do in my future. I have dreams about my future plans, but I'm not sure if I believe them. I have dreams of working for Tesla, Waymo, autonomous companies, but I don't know how to get there, or if that will still exist in the future. The irrational side of my mind wants to create 
+
+
+I think about Machine learning. Not the stupid data science stuff or the bs math but the cool stuff. Creating the pipelines. Like an MlOps role. Working with unstructured data (videos, images) to get a prediction. Creating an inference service. Maybe work with LLMs. Maybe get to a point where I can create my own model architecture, but I've heard that's a graduate level thing. 
+
+All geniuses do is modify algorithms, it's the same sh*t. In a couple of years, some car will get hacked or open pilot will be involved in an accident, and the government will get rid of OBD2 and replace it with some encrypted protocol. 
+
+If I could pick anything, I want to develop an end to end self driving system using camera input. Fully autonomous (level 4), F you Tesla. So maybe I will come up with my own form of communication between motors and python. Write some driver in C, make my own complete system from low level to higher level. Deal with edge cases and current data biases. Making merging on the interstate autonomous. 
+
+For now, I'm working a minimum wage job until my internship starts. Afterwards, I think I'm starting a grad school program. I'm going to CMU on Monday to look around and talk to some profs. Hoping that will help. </p>
+
+</div>
+
+<div class="post">
+<p><em>1/26/2025</em></p>
+<h2>Attention is not all you need</h2>
+
+<p> I was looking at an implementation of Multi-head Latent Attention (MLA) that was proposed in deep seek's paper. 
+If we looked at self-attention, we would look at attention scaling quadratically, which isn't great for high resolution video. 
+
+Ideally, MLA is supposed to introduce a smaller set of latent variables (m) instead of computing attention directly between all of the tokens in a sequence (n). Each token in the input attends to the latent variables, and each latent variable attends back to all of the tokens. There's a bidirectional exchange, but the attention computation is reduced from nxn to nxm. 
+
+Here's what I'm thinking.  
+If we take a sequence of 10k (thinking of image pixels), 64 latent variables (size used in paper), and a hidden dimension (d) of 512,
+
+self-attention would compute: O(n^2 * d) = O(5.12 * 10^9)
+
+mla: O(n *  m * d) = O(3.28 * 10^7)
+
+So, that would make mla more efficient for handling video/image inputs, right? I would also think that latent variables would improve explainability, such as summarizing spatial regions of interest (image). I also figure in cases without global information, mla wouldn't be great, but then again, neither would self-attention. Or if input is small mla wouldn't be ideal, as the O(n^2) wouldn't matter as much. MLA also probably wouldn't be great for recurrence (looking a previous frames). I guess in a situation such as that you could do  LSTM + MLA.  I guess it would also be good for combination of sensor data camera + radar + liDAR, they could share a latent representation which would enable cross-modal attention without having to directly compute attention across tokens for each sensor. I don't know, just thinking. I was thinking a lot about multi camera openpilot over break. IE, connecting a backup camera and front facing camera, but turns out the smart people are right and it is difficult to efficiently simultaneously process camera feed on limited compute resources (hence why comma ai hasn't done that) Plus you would need to split an OBD2 connector.  An OBD2 'Y' cable I guess. Again I don't know what I'm talking about.
+</p>
+
+</div>
+
+<div class="post">
+<p><em>9/15/2024</em></p>
+<h2>Wammy @ VTHacks</h2>
+
+
+<img src="/photos/vthacks.png" alt="Yep." />
+
+
+<p>
+
+The homies and I braved the drive via openpilot to VT for a hackathon. We ended up creating an LLM + RAG with Auth fullstack application for homebuying that was crazy accurate over using a traditional LLM. Despite not winning anything, multiple free meals + energy drinks were consumed, and new friends were made. VT has a nice campus, and the waffle house was great. Would return for future hackathon. 
+
+
+
+
+</p>
+
+<a href="https://devpost.com/software/homeview" target="_blank" style="color: #00ff00; text-decoration: underline;">Homeview</a>
+
+</div>
+
+<!-- To add more posts, create markdown files in the _posts directory or add more <div class="post"> blocks here. -->
+
+      </section>
+    </div>
+  </body>
+</html>
