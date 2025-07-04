@@ -40,7 +40,7 @@ img.profile {
 <div class="header">
   <img src="/photos/photo-removebg-preview.png" alt="Profile photo"/>
   <div>
-    <h1>Hi, I'm Myra</h1>
+    <h1>Hello World, I'm Myra</h1>
     <h2>I just finished ugrad in CS from William & Mary. I'm an incoming ECE MS Student at Carnegie Mellon University</h2>
     <h2>I'm interested in autonomous driving, robotics, and AI/ML.</h2>
     <p>I have some of my projects and resume on here.</p>
