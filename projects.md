@@ -97,7 +97,7 @@ h2 { color: #00ff00; border-bottom: 1px solid #00ff00; }
   </div>
 </div>
 
-<h1>Outside of these projects and school, I enjoy working on cars.</h1>
+<h1>Outside of these projects and school, I enjoy working on cars, and repairing various electronic devices.</h1>
 
 I use Toyota Techstream software for reprogramming software in my car and running diagonistics. 
 <div class="links">
@@ -107,7 +107,7 @@ I use Toyota Techstream software for reprogramming software in my car and runnin
 
 
 
-I'm currently working on reprogramming an vehicle cluster. 
+I'm currently working on reprogramming a vehicle cluster. 
 
 Here's some pictures as well of one of the better go-karts I've built with my friends.
 
@@ -115,7 +115,6 @@ Here's some pictures as well of one of the better go-karts I've built with my fr
   <h2>Go-Kart Project</h2>
   <p>Built a custom go-kart with friends, showcasing hands-on mechanical and engineering skills.</p>
   
-  <!-- Add your go-kart pictures here -->
 
 
 <img src="/photos/gochart2.jpg" alt="Go-kart project - side view" />
@@ -127,3 +126,4 @@ Here's some pictures as well of one of the better go-karts I've built with my fr
   
   
 </div> 
+
