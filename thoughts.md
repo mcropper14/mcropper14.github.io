@@ -36,6 +36,14 @@ body { background: #111; color: #00ff00; font-family: 'Fira Mono', 'Consolas', m
 
 
 <div class="post">
+<p><em>5/6/2025</em></p>
+<h2>Waze as a navigation tool</h2>
+<p>Waze is very inaccurate when it comes to traffic. I had an hour longer commute than their estimated time. Is there not a better way to model/predict traffic? Additionally it routes all the people the same way, leading to more congestion on backroads. I'm not a UI guy, but think I could make something better. I'll that to the list of my projects I'll never start, I suppose. 
+</p>
+</div>
+
+
+<div class="post">
 
 <p><em>7/1/2025</em></p>
 <h2>CarOps, and why I need a Waymo</h2>
@@ -73,6 +81,32 @@ For now, I'm working a minimum wage job until my internship starts. Afterwards, 
 
 
 <div class="post">
+<p><em>5/7/2025</em></p>
+<h2>VLMs </h2>
+<p> All the cool kids (phds) are leaning towards VLMs. What is the major issue after reading DriveVLM? Latency, 1.9s is too long. Maybe we could apply multi latent attention to reduce the latency. But what do I know about anything, nothing. 
+</p>
+</div>
+
+
+
+<div class="post">
+<p><em>4/30/2025</em></p>
+<h2>Waymo and Tesla </h2>
+<p>Toyota is partnering with Waymo. For whatever it's worth, I had a self driving toyota before the cool kids were doing it. 
+</p>
+</div>
+
+
+<div class="post">
+<p><em>3/12/2025</em></p>
+<h2>Insert LLM buzzword.</h2>
+<p>I think this is interesting. https://arxiv.org/abs/2407.08735 
+</p>
+</div>
+
+
+
+<div class="post">
 <p><em>1/26/2025</em></p>
 <h2>Attention is not all you need</h2>
 
@@ -93,6 +127,14 @@ So, that would make mla more efficient for handling video/image inputs, right? I
 
 </div>
 
+
+
+<div class="post">
+<p><em>1/11/2025</em></p>
+<h2>Katy OBD</h2>
+<p>https://github.com/YangChuan80/KatyOBD Yes. Only arduino and canbus shield (MCP2515) to read can bus messages from a vehicle, and use a DBC file to interpret the messages. "Mom, we have openpilot at home." Bro who needs a 1k device when you have open source software and 
+</p>
+</div>
 
 <div class="post">
 <p><em>9/15/2024</em></p>
@@ -117,5 +159,3 @@ The homies and I braved the drive via openpilot to VT for a hackathon. We ended 
 
 
 
-
-<!-- To add more posts, create markdown files in the _posts directory or add more <div class="post"> blocks here. --> 
