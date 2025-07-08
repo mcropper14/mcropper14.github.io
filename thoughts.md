@@ -116,13 +116,6 @@ Drive the car autonomously or it didn't happen. Working in sem in ideal conditio
 
 
 <div class="post">
-<p><em>2/25/2025</em></p>
-<h2>Ugrad Education</h2>
-<p> I think I am spending my money wisely on my education. 
-</p>
-</div>
-
-<div class="post">
 <p><em>2/26/2025</em></p>
 <h2>NN</h2>
 <p> To quote the esteemed academics: "The deep neural network is very good because it is very deep"
@@ -231,7 +224,7 @@ Is there a threshold, or just trivial and error? so much of ML is guessed bounda
 
 
 <div class="post">
-<p><em>11/8/2024</em></p>
+<p><em>10/20/2024</em></p>
 <h2>EMMA</h2>
 <p> Waymo came out with an end to end LLM Driving model (EMMA). It is trained using text data from driving. I see no chance for anything to go wrong there. There will totally be no model hallunications. Plus you have to get the image data for driving, convert into text, then convert into embeddings. That's def slow.
 What do I know, I'm not a phd student, or even close. 
