@@ -36,7 +36,7 @@ body { background: #111; color: #00ff00; font-family: 'Fira Mono', 'Consolas', m
 
 
 <div class="post">
-<p><em>5/6/2025</em></p>
+<p><em>7/6/2025</em></p>
 <h2>Waze as a navigation tool</h2>
 <p>Waze is very inaccurate when it comes to traffic. I had an hour longer commute than their estimated time. Is there not a better way to model/predict traffic? Additionally it routes all the people the same way, leading to more congestion on backroads. I'm not a UI guy, but think I could make something better. I'll that to the list of my projects I'll never start, I suppose. 
 </p>
@@ -98,11 +98,44 @@ For now, I'm working a minimum wage job until my internship starts. Afterwards, 
 
 
 <div class="post">
+<p><em>4/16/2025</em></p>
+<h2>Research Papers</h2>
+<p>Autonomous driving papers are interesting. Most of them test in ideal conditions, simulators, or just straight up talk about data. I understand that it's hard to replicate, but I want to see something. 
+Drive the car autonomously or it didn't happen. Working in sem in ideal conditions is not a problem. The edge case, ie, highway driving are the issue. We don't need another fine tuned yolo model. (coming from someone who, in fact, has fine tuned many yolo models)
+</p>
+</div>
+
+
+
+<div class="post">
 <p><em>3/12/2025</em></p>
 <h2>Insert LLM buzzword.</h2>
 <p>I think this is interesting. https://arxiv.org/abs/2407.08735 
 </p>
 </div>
+
+
+<div class="post">
+<p><em>2/25/2025</em></p>
+<h2>Ugrad Education</h2>
+<p> I think I am spending my money wisely on my education. 
+</p>
+</div>
+
+<div class="post">
+<p><em>2/26/2025</em></p>
+<h2>NN</h2>
+<p> To quote the esteemed academics: "The deep neural network is very good because it is very deep"
+</p>
+</div>
+
+<div class="post">
+<p><em>1/27/2025</em></p>
+<h2>My CS education</h2>
+<p> As another fun semester of learning begins, I think more about my classes. I say in general, the CS classes include a week on how to ssh/terminal, explain what the empty set is, and then how do write very basic code in C. I would see that this remains constant for all the 300 levels, and then continues into some of the 400s. 
+</p>
+</div>
+
 
 
 
@@ -132,9 +165,93 @@ So, that would make mla more efficient for handling video/image inputs, right? I
 <div class="post">
 <p><em>1/11/2025</em></p>
 <h2>Katy OBD</h2>
-<p>https://github.com/YangChuan80/KatyOBD Yes. Only arduino and canbus shield (MCP2515) to read can bus messages from a vehicle, and use a DBC file to interpret the messages. "Mom, we have openpilot at home." Bro who needs a 1k device when you have open source software and 
+<p>https://github.com/YangChuan80/KatyOBD Yes. Only arduino and canbus shield (MCP2515) to read can bus messages from a vehicle, and use a DBC file to interpret the messages. "Mom, we have openpilot at home." Bro who needs a 1k device when you have open source software and the internet?
+Read the canbus messages and then decode using comma ai's opendbc API. Okay, cool. 
+</p>
+<img src="/photos/canbus.jpg" alt="Canbus." />
+</div>
+
+
+<div class="post">
+<p><em>1/8/2025</em></p>
+<h2>CES</h2>
+<p> I just watched demo from Comma AI at CES on YouTube. I want to be there. Sh*t's cool.  
 </p>
 </div>
+
+
+
+<div class="post">
+<p><em>12/17/2024</em></p>
+<h2>TensorFlow v PyTorch</h2>
+<p> Everyone (one prof) wants to know why I use PyTorch. Despite being forced aganist my will to use TensorFlow in Marty White's class, and then switch back to do the same thing for intro to ml, I'll take PyTorch anyday.
+PyTorch uses dynamic execution graphs, so yu can directly use print statements or debugging, TF has static graphs, so you have to define a computation graph to execute it. You cannot look at intermediate values with out doing tf.print. 
+Then again, what do I know, as a lowely ugrad student. 
+</p>
+</div>
+
+
+<div class="post">
+<p><em>11/18/2024</em></p>
+<h2>MyraFlow?</h2>
+<p> Looking into TinyGrad, George's ML framework used in openpilot. Working on figuring it out by using it to write my own NN. It's got me thinking about optimaization, and writing my own library. 
+I'd call in Myraflow, I think that sounds way cooler than MyraTorch. If I had the time, I would rewrite my hw in tingrad, but I don't think my prof would find that funny.
+If I didn't have spanish, or anything else, I would make my own ML library from scratch. Not only for optimization, but to learn more about low level. All my ML classes cover the same stuff, I think this could be a cool project. 
+</p>
+</div>
+
+
+
+
+
+<div class="post">
+<p><em>11/8/2024</em></p>
+<h2>SSH</h2>
+<p> I'm gatekeeping my .ssh config. although if you ask nicely I'll probably help with it. Or if you go to my office hours and demand help, I'll also probably help you then. 
+You wanna use a gpu? Drive to campus. 
+</p>
+</div>
+
+
+<div class="post">
+<p><em>11/8/2024</em></p>
+<h2>Image Net</h2>
+<p> Alex Krizhevsky was 26 when he wrote the imageNet paper.
+</p>
+</div>
+
+
+<div class="post">
+<p><em>11/4/2024</em></p>
+<h2>Today's Question</h2>
+<p> At what point is a NN too shallow, when does using ReLU and dropout lead to excessive zeroed neurons? Too high dropout + too many zeroed out neurons = ineffective 
+Is there a threshold, or just trivial and error? so much of ML is guessed boundary points. Idk, I asked my prof and he didn't know.
+</p>
+</div>
+
+
+<div class="post">
+<p><em>11/8/2024</em></p>
+<h2>EMMA</h2>
+<p> Waymo came out with an end to end LLM Driving model (EMMA). It is trained using text data from driving. I see no chance for anything to go wrong there. There will totally be no model hallunications. Plus you have to get the image data for driving, convert into text, then convert into embeddings. That's def slow.
+What do I know, I'm not a phd student, or even close. 
+</p>
+</div>
+
+
+
+<div class="post">
+<p><em>10/6/2024</em></p>
+<h2>Big Flavor</h2>
+
+<img src="/photos/10-6-2024.jpg" alt="RedBull." />
+<p> Big Flavor, Big Code. Thanks Mike. Another hackathon has started. Griffin Events? Banger.
+After 36 hours of no sleep, I will sleep tonight, and then take two midterms tmrw. Actually, I will probably study tonight. 
+</p>
+</div>
+
+
+
 
 <div class="post">
 <p><em>9/15/2024</em></p>
@@ -159,3 +276,9 @@ The homies and I braved the drive via openpilot to VT for a hackathon. We ended 
 
 
 
+<div class="post">
+<p><em>6/8/2024</em></p>
+<h2>Not_supercombo</h2>
+<p>I'm writing my own more accurate verison of openpilot's supercombo model and I'm calling it Not_supercombo. 
+</p>
+</div>
