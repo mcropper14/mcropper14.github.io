@@ -216,7 +216,7 @@ You wanna use a gpu? Drive to campus.
 <div class="post">
 <p><em>11/8/2024</em></p>
 <h2>Image Net</h2>
-<p> Alex Krizhevsky was 26 when he wrote the imageNet paper.
+<p> Alex Krizhevsky was 26 when he wrote the imageNet paper. I''ve done nothing with my life. I have a not so good ugrad thesis. 
 </p>
 </div>
 
