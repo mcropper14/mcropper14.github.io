@@ -36,6 +36,15 @@ body { background: #111; color: #00ff00; font-family: 'Fira Mono', 'Consolas', m
 
 
 <div class="post">
+<p><em>8/9/2025</em></p>
+<h2>Wake up, new OpenAI model just dropped. </h2>
+<p>OpenAI just dropped new open weight reasoning models. There's a 120b that I'll never run and a 20b maybe I'll run. It has enhanced tool call functionality, so maybe now I'll create a functionality mcp server with tools. Sick let's see how this goes. AI will be taking my job. Man, chain of thought will also make model trust easier. Who needs SWES? Let's get this started in LLM Studio. 
+</p>
+</div>
+
+
+
+<div class="post">
 <p><em>7/6/2025</em></p>
 <h2>Waze as a navigation tool</h2>
 <p>Waze is very inaccurate when it comes to traffic. I had an hour longer commute than their estimated time. Is there not a better way to model/predict traffic? Additionally it routes all the people the same way, leading to more congestion on backroads. I'm not a UI guy, but think I could make something better. I'll that to the list of my projects I'll never start, I suppose. 
