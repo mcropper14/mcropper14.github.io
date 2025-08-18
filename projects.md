@@ -56,6 +56,15 @@ h2 { color: #00ff00; border-bottom: 1px solid #00ff00; }
   </div>
 </div>
 
+<div class="project">
+  <h2>Canbus spoofing</h2>
+  <p>Developed a CAN bus spoofing tool using Arduino Uno and MCP2515 to inject modified speed and RPM values into a 2010 Toyota Prius, leveraging opendbc DBC files for signal decoding.</p>
+  <div class="tech">Frameworks: C++, Arduino, Python, MCP2515 Can Bus, cantools</div>
+  <div class="links">
+    <a href="https://github.com/mcropper14/canbus_hacking" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+  </div>
+</div>
+
 <h1>Some hackathon projects</h1>
 
 <div class="project">
