@@ -88,17 +88,18 @@ h2 { color: #00ff00; border-bottom: 1px solid #00ff00; }
 </div>
 
 <div class="project">
-  <h2>CapitalSavy - Credit Card Fraud Detection</h2>
+  <h2>CapitalSavy - Credit Card Fraud Detection (Project Winner) </h2>
   <p>Developed a machine learning model using deep neural networks to identify credit card fraud with 99.5% accuracy. Built a full-stack web application with TensorFlow backend and intuitive frontend interface. Implemented dropout layers and K-Fold validation to prevent overfitting, analyzing over 550,000 anonymized European credit card transactions from 2023. Won best Finance Hack.</p>
   <div class="tech">Frameworks: Python, TensorFlow, Deep Neural Networks, VPS, Full-stack Web Development</div>
   <div class="links">
     <a href="https://github.com/F4llow/FraudAI" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+    <a href= "https://devpost.com/software/capitalsavvy" target="_blank" rel="noopener noreferrer">Devpost</a>
     
   </div>
 </div>
 
 <div class="project">
-  <h2>Griffin Events - AI-Powered Event Discovery</h2>
+  <h2>Griffin Events - AI-Powered Event Discovery (Project Winner)</h2>
   <p>Built an AI-powered event discovery platform for William & Mary using LLM + RAG (Retrieval Augmented Generation) with a self-hosted Mixtral 7B model. Aggregated event data from multiple campus sources (TribeLink, official W&M sites, department mailing lists, etc.) and created a vector database for efficient retrieval. Features include natural language event queries, geographical filtering, and secure authentication with PropelAuth. Won Best Accessibility & Belonging Hack at &hacks 10.</p>
   <div class="tech">Frameworks: Python, Node.js, LLM, RAG, Mixtral 7B, Vector Database, PropelAuth, AlmaLinux VPS</div>
   <div class="links">
