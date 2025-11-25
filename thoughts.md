@@ -34,6 +34,14 @@ body { background: #111; color: #00ff00; font-family: 'Fira Mono', 'Consolas', m
 <h1>My own thoughts. Ignore the spelling and grammar mistakes, I'm a CS major.</h1>
 
 
+<div class="post">
+<p><em>11/25/2025</em></p>
+<h2>VLM, VLA, and my life choices</h2>
+<p> I swear I'm still reading papers and thinking for myself. So, back to one of my favorite topics of slow latency models. The homies at Nvidia released alpamayo-r1, a vla + tracjectory planning model. They perform fusion at camera level, process all cameras together in a single scene ("triplanes"), then tokenizes. Apparently inference time is 99ms since it's not fully an autoregressive model. It also does not do world reconstruction, so it does not know what objects are, just what they mean (reasoning model). This takes me back to my adventures in low level feature fusion. My (look this was a year ago, okay) inital idea was that it is too expensive to project all the cameras into a single 3d latent representation, and I was entertaining the idea of removing camera views that did not provide complementary views and then remove them. So yeah that was a bad idea, very high false negative cost. 
+</p>
+</div>
+
+
 
 <div class="post">
 <p><em>8/9/2025</em></p>

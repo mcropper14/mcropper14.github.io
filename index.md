@@ -76,8 +76,8 @@ img.profile {
   <img src="/photos/photo-removebg-preview.png" alt="Profile photo"/>
   <div>
     <h1>Hello World, I'm Myra</h1>
-    <h2>I just finished ugrad in CS. I'm an incoming ECE MS Student @ Carnegie Mellon University</h2>
-    <h2>I'm interested in autonomous driving, robotics, and AI/ML. Looking for summer 2026 internship and FT Decemeber 2026.</h2>
+    <h2>I'm an ECE MS Student @ Carnegie Mellon University during research in autonomous driving.</h2>
+    <h2>I'm interested in autonomous driving, robotics, and AI/ML. </h2>
     <p>Contact me @myracropper32@gmail.com</p>
     
   </div>

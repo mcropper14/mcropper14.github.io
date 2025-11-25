@@ -47,7 +47,7 @@ h2 { color: #00ff00; border-bottom: 1px solid #00ff00; }
 
 <div class="project">
   <h2>Comma.ai Calibration Challenge</h2>
-  <p>Developed a Kalman Filter-based lane detection system for comma.ai's calibration challenge, achieving MSE of <25% on test data. Implemented curved lane detection, pitch/yaw calculation from vanishing points, speed estimation via optical flow, and parallelism enforcement for consistent lane tracking.</p>
+  <p>Developed a Kalman Filter-based lane detection system for comma.ai's calibration challenge, achieving MSE of less than 25% on test data. Implemented curved lane detection, pitch, yaw calculation from vanishing points, speed estimation via optical flow, and parallelism enforcement for consistent lane tracking.</p>
   <div class="tech">Frameworks: Python, OpenCV, NumPy, Kalman Filters</div>
   <div class="links">
     <a href="https://github.com/mcropper14/commaai_calib_code" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
@@ -119,19 +119,6 @@ I use Toyota Techstream software for reprogramming software in my car and runnin
 
 I'm currently working on reprogramming a vehicle cluster. 
 
-Here's some pictures as well of one of the better go-karts I've built with my friends.
-
-<div class="project">
-  <h2>Go-Kart Project</h2>
-  <p>Built a custom go-kart with friends, showcasing hands-on mechanical and engineering skills.</p>
-  
-
-
-<img src="/photos/gochart2.jpg" alt="Go-kart project - side view" />
-  <p class="image-caption">Front view</p>
-
-  <img src="/photos/gocart1.jpg" alt="Go-kart project - front view" />
-  <p class="image-caption">Back View with my friend welding.</p>
   
   
   
