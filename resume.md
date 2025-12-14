@@ -11,6 +11,6 @@ a { color: #00ff00; }
 
 <div class="resume-container">
   <h1>My Resume</h1>
-  <a href="/myra_cropper_resume.pdf" download>Download PDF</a>
+  <a href="/myra_spring2026_resume.pdf" download>Download PDF</a>
   <embed src="/myra_cropper_resume.pdf" type="application/pdf" width="100%" height="600px" />
 </div> 

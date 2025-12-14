@@ -76,7 +76,7 @@ img.profile {
   <img src="/photos/photo-removebg-preview.png" alt="Profile photo"/>
   <div>
     <h1>Hello World, I'm Myra</h1>
-    <h2>I'm an ECE MS Student @ Carnegie Mellon University during research in autonomous driving.</h2>
+    <h2>I'm an ECE MS Student @ Carnegie Mellon University doing research in autonomous driving.</h2>
     <h2>I'm interested in autonomous driving, robotics, and AI/ML. </h2>
     <p>Contact me @myracropper32@gmail.com</p>
     
