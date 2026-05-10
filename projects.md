@@ -26,6 +26,21 @@ h2 { color: #00ff00; border-bottom: 1px solid #00ff00; }
 
 
 <div class="project">
+  <h2>NVIDIA Alpamayo 1.5 Autonomous Driving Stack</h2>
+  <p>
+    Built a real-time autonomous driving inference pipeline integrating NVIDIA Alpamayo 1.5, openpilot, Comma 3 simulation streams, and Ultra96-V2 FPGA acceleration for low-latency trajectory generation and embedded deployment experimentation. Implemented FPGA-accelerated INT8 trajectory decoding achieving 11.46 ms inference latency and sustained 10 Hz closed-loop planning with 110 ms end-to-end latency.
+  </p>
+  <div class="tech">
+    Frameworks: PyTorch, openpilot, FPGA (Ultra96-V2), Python, ROS2, TCP/USB Relay Infrastructure
+  </div>
+  <div class="links">
+    <a href="https://www.youtube.com/watch?v=3vH0-oC2SBg&t=11188s" target="_blank" rel="noopener noreferrer">Project Presentation</a>
+    <a href="https://www.youtube.com/watch?v=QCdYa7zTYJA" target="_blank" rel="noopener noreferrer">Demo</a>
+  </div>
+</div>
+
+
+<div class="project">
   <h2>Adaptive Multi-Camera Sensor Fusion</h2>
   <p>Developed a multi-sensor perception framework integrating Multi-Head Latent Attention (MLA) and LSTM networks to fuse Vision Transformer features from multi-camera inputs for autonomous driving.</p>
   <div class="tech">Frameworks: PyTorch, ROS2 GNSS, Python</div>
