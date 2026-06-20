@@ -77,6 +77,7 @@ img.profile {
   <div>
     <h1>Hello World, I'm Myra</h1>
     <h2>I'm an ECE MS Student @ Carnegie Mellon University doing research in autonomous driving.</h2>
+    <h2> Currently interning on the ADAS team @ Ford working on BlueCruise range extension.</h2>
     <h2>I'm interested in autonomous driving, robotics, and AI/ML. </h2>
     <p>Contact me @myracropper32@gmail.com</p>
     
